@@ -118,11 +118,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
 }
 .text-container h1 {
   color: #eaeaea;
-  padding-left: 180px;
+  padding-left: 170px;
 }
 .text-container h2 {
   color: #eaeaea;
@@ -146,8 +145,14 @@ body {
 
 .port-prof {
   background: linear-gradient(to top, transparent 1%, #1e1e1e 100%);
-  width: 450px;
+  width: 400px;
   border-radius: 10px;
+}
+.port-prof img {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 300px;
 }
 
 .port-div {
