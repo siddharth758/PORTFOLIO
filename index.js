@@ -1,7 +1,7 @@
 var tabLinks = document.getElementsByClassName("tab-links");
 var tabContents = document.getElementsByClassName("tab-contents");
 
-function opentab(tabname) {
+function opentab(tabname, event) {
   for (let tablink of tabLinks) {
     tablink.classList.remove("active-links");
   }
@@ -9,8 +9,5 @@ function opentab(tabname) {
     tabcontent.classList.remove("active-tabs");
   }
   event.currentTarget.classList.add("active-links");
-  let selectedTabs = document.getElementsByClassName(tabname);
-  for (let tab of selectedTabs) {
-    tab.classList.add("active-tabs");
-  }
+  document.getElementById(tabname).classList.add("active-tabs");
 }
