@@ -35,7 +35,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(18, 18, 18, 0.95);
+  /* background: rgba(18, 18, 18, 0.95); */
   z-index: 100;
   backdrop-filter: blur(8px);
 }
@@ -101,7 +101,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+   background: linear-gradient(135deg, #0d0d0d, #1a1a1a); 
   color: #fff;
   position: relative;
   overflow: hidden;
@@ -113,7 +113,7 @@ body {
   position: absolute;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, #00a8e8 0%, #00ffee33 10%);
+  /* background: radial-gradient(circle, #00a8e8 0%, #00ffee33 10%); */
 
   filter: blur(80px);
   top: -100px;
