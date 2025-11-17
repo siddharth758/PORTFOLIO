@@ -31,6 +31,7 @@
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </nav>
+      <i class="fa-solid fa-bars hamburger" onclick="toggleMenu()"></i>
     </div>
 
     <!-- 🌟 HOME SECTION -->
@@ -44,13 +45,12 @@
     </section>
 
     <!-- 🔹 ABOUT SECTION -->
-    <!-- 🔹 ABOUT SECTION -->
     <section class="about-section" id="about">
       <div class="about-container">
         <!-- Left Profile Box -->
         <div class="about-left">
           <div class="profile-box">
-            <img src="" alt="" />
+            <img src="image/PFP.png" alt="PFP" />
           </div>
         </div>
 
@@ -197,6 +197,12 @@
         </div>
       </div>
     </div>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".navbar").classList.toggle("mobile-active");
+      }
+    </script>
 
     <script src="index.js"></script>
   </body>
