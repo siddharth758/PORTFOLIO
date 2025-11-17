@@ -738,7 +738,7 @@ body {
   .top {
     flex-direction: column;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0;
   }
 
   .navbar {
@@ -750,6 +750,7 @@ body {
     height: auto;
     padding: 50px 20px;
     text-align: center;
+    margin-top: 60px;
   }
 
   .hero-content h1 {
@@ -772,12 +773,17 @@ body {
   }
 
   .about-left {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    padding: 0 70px;
   }
 
   .about-right {
     padding: 0 20px;
+  }
+
+  .tab-contents {
+    padding: 0 80px;
   }
 
   .project-card {
